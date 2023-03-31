@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">chrome</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">94,861</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testClasses.TestCases</td><td><a href="#m0">verify_Login_Fails_Error_Message</a></td><td rowspan="1">1679983044314</td><td rowspan="1">2331</td></tr><tr class="failedeven"><td><a href="#m1">verify_Logo</a></td><td rowspan="1">1679983032854</td><td rowspan="1">10638</td></tr><tr><th colspan="4">chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="11">testClasses.TestCases</td><td><a href="#m2">verify_All_links_DashBoard</a></td><td rowspan="1">1679983062575</td><td rowspan="1">9868</td></tr><tr class="passedeven"><td><a href="#m3">verify_DashBoard_Logout_Functionality</a></td><td rowspan="1">1679983076349</td><td rowspan="1">888</td></tr><tr class="passedeven"><td><a href="#m4">verify_Dash_Profile_About_PopupURL</a></td><td rowspan="1">1679983072537</td><td rowspan="1">905</td></tr><tr class="passedeven"><td><a href="#m5">verify_Dash_Profile_ChangePasswordURL</a></td><td rowspan="1">1679983075172</td><td rowspan="1">1088</td></tr><tr class="passedeven"><td><a href="#m6">verify_Dash_Profile_SupportPageURL</a></td><td rowspan="1">1679983073500</td><td rowspan="1">1582</td></tr><tr class="passedeven"><td><a href="#m7">verify_Empty_Credentials</a></td><td rowspan="1">1679983046888</td><td rowspan="1">411</td></tr><tr class="passedeven"><td><a href="#m8">verify_Invalid_Credentials</a></td><td rowspan="1">1679983047402</td><td rowspan="1">1251</td></tr><tr class="passedeven"><td><a href="#m9">verify_Search_With_All_Tabs</a></td><td rowspan="1">1679983050894</td><td rowspan="1">11346</td></tr><tr class="passedeven"><td><a href="#m10">verify_Tabs_Colspan</a></td><td rowspan="1">1679983062299</td><td rowspan="1">204</td></tr><tr class="passedeven"><td><a href="#m11">verify_Title</a></td><td rowspan="1">1679983031270</td><td rowspan="1">1097</td></tr><tr class="passedeven"><td><a href="#m12">verify_Valid_Credentials</a></td><td rowspan="1">1679983048737</td><td rowspan="1">2074</td></tr></tbody>
+</table>
+<h2>chrome</h2><h3 id="m0">testClasses.TestCases#verify_Login_Fails_Error_Message</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: src/test/resources/screenshots/Tue Mar 28 11 27 26 IST 2023Invalid Login.png (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:295)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:236)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:185)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:136)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:115)
+	at utilities.CaptureScreenShot.takescreenshot(CaptureScreenShot.java:18)
+	at pomPages.LoginPage.ErrorMessage(LoginPage.java:62)
+	at testClasses.TestCases.verify_Login_Fails_Error_Message(TestCases.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testClasses.TestCases#verify_Logo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (0356e0a4251fa90331c2488988f356f1)] -&gt; xpath: //div[@class=&apos;orangehrm-login-branding&apos;]//img] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6.3&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.110, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: /var/folders/w5/0p1pln4129d...}, goog:chromeOptions: {debuggerAddress: localhost:52597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52597/devtoo..., se:cdpVersion: 111.0.5563.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0356e0a4251fa90331c2488988f356f1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utilities.TimeOut.waitForElementLocated(TimeOut.java:13)
+	at pomPages.LoginPage.verifylogoimage(LoginPage.java:68)
+	at testClasses.TestCases.verify_Logo(TestCases.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testClasses.TestCases#verify_All_links_DashBoard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testClasses.TestCases#verify_DashBoard_Logout_Functionality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testClasses.TestCases#verify_Dash_Profile_About_PopupURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testClasses.TestCases#verify_Dash_Profile_ChangePasswordURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testClasses.TestCases#verify_Dash_Profile_SupportPageURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testClasses.TestCases#verify_Empty_Credentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testClasses.TestCases#verify_Invalid_Credentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testClasses.TestCases#verify_Search_With_All_Tabs</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testClasses.TestCases#verify_Tabs_Colspan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testClasses.TestCases#verify_Title</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testClasses.TestCases#verify_Valid_Credentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

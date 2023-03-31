@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testClasses.TestCases">
+        <methods>
+          <include name="verify_Dash_Profile_SupportPageURL"/>
+          <include name="verify_Invalid_Credentials"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+          <include name="verify_Search_With_All_Tabs"/>
+          <include name="verify_Title"/>
+          <include name="verify_All_links_DashBoard"/>
+          <include name="beforeClass"/>
+          <include name="verify_Tabs_Colspan"/>
+          <include name="aftermethod"/>
+          <include name="verify_Dash_Profile_ChangePasswordURL"/>
+          <include name="verify_Valid_Credentials"/>
+          <include name="verify_DashBoard_Logout_Functionality"/>
+          <include name="verify_Dash_Profile_About_PopupURL"/>
+          <include name="verify_Logo"/>
+          <include name="verify_Empty_Credentials"/>
+          <include name="verify_Login_Fails_Error_Message"/>
+        </methods>
+      </class> <!-- testClasses.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
