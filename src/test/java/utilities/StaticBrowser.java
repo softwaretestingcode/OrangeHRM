@@ -1,5 +1,7 @@
 package utilities;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver.Options;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,9 +22,9 @@ public class StaticBrowser {
 		else if(browser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions option = new FirefoxOptions();
-			option.addArguments("--headless");
+			//option.addArguments("--headless"); //headless without gui run test cases
 			
-			driver = new FirefoxDriver(option);
+			driver = new FirefoxDriver();
 		}
 		else if(browser.equalsIgnoreCase("safari")) {
 			WebDriverManager.safaridriver().setup();
@@ -30,6 +32,8 @@ public class StaticBrowser {
 		}
 		
 		driver.manage().window().maximize();
+		//implicit waits
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(URL);
 		return driver;
 	}

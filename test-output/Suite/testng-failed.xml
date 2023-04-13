@@ -10,8 +10,10 @@
           <include name="afterclass"/>
           <include name="beforemethod"/>
           <include name="verify_Login_Fails_Error_Message"/>
+          <include name="verify_All_links_DashBoard"/>
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
+          <include name="verify_Valid_Credentials"/>
           <include name="aftermethod"/>
         </methods>
       </class> <!-- testClasses.TestCases -->

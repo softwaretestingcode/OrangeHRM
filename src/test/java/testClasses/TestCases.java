@@ -14,19 +14,6 @@ public class TestCases extends BaseClass {
 
 	LoginPage login;
 	DashboardPage dash;
-
-//	@Parameters({"browser"})
-//	
-//	@BeforeTest
-//	public void beforeTest(String browser) {
-//		driver = CrossBrowser.CrossBrowserTesting(browser);
-//	}
-
-//	@BeforeClass
-//	public void beforeclass() {
-//		driver = OpenBrowser.getChromeDriver();
-//		
-//	}
 	@BeforeMethod
 	public void beforemethod() {
 		login = new LoginPage(driver);

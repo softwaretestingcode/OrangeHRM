@@ -1,5 +1,6 @@
 package testClasses;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
@@ -36,7 +37,7 @@ public class BaseClass {
 		WebDriver driver = StaticBrowser.anybrowseropen(browser,
 				"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		this.driver = driver;
-		extent = new ExtentHtmlReporter("test-output/Report/"+System.currentTimeMillis()+".html");
+		extent = new ExtentHtmlReporter("test-output"+File.separator+"Report"+File.separator+""+System.currentTimeMillis()+".html");
 		report = new ExtentReports();
 		report.attachReporter(extent);
 	}

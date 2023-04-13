@@ -105,10 +105,6 @@ public class DashboardPage {
 
 	@FindBy(xpath = "//i[@class='oxd-icon bi-chevron-left']")
 	private WebElement arrowIcon;
-	
-	
-	
-	
 
 	public DashboardPage(WebDriver driver) {
 		this.driver = driver;
