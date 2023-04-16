@@ -12,7 +12,7 @@
 				<version>2.12.2</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>location-to-testng-xml-file</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
