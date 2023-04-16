@@ -37,7 +37,7 @@ public class BaseClass {
 		WebDriver driver = StaticBrowser.anybrowseropen(browser,
 				"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		this.driver = driver;
-		extent = new ExtentHtmlReporter("test-output"+File.separator+"Report"+File.separator+""+System.currentTimeMillis()+".html");
+		extent = new ExtentHtmlReporter(System.getProperty("user.dir")+File.separator+"test-output"+File.separator+"Report"+File.separator+""+System.currentTimeMillis()+".html");
 		report = new ExtentReports();
 		report.attachReporter(extent);
 	}

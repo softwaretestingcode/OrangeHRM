@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="13" passed="10" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-13T16:44:40 IST" name="Suite" finished-at="2023-04-13T16:45:24 IST" duration-ms="44332">
+  <suite started-at="2023-04-16T15:18:59 IST" name="Suite" finished-at="2023-04-16T15:19:36 IST" duration-ms="37494">
     <groups>
     </groups>
-    <test started-at="2023-04-13T16:44:40 IST" name="chrome" finished-at="2023-04-13T16:45:24 IST" duration-ms="44332">
+    <test started-at="2023-04-16T15:18:59 IST" name="chrome" finished-at="2023-04-16T15:19:36 IST" duration-ms="37494">
       <class name="testClasses.TestCases">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:40 IST" name="beforeClass" finished-at="2023-04-13T16:44:53 IST" duration-ms="12973" status="PASS">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:18:59 IST" name="beforeClass" finished-at="2023-04-16T15:19:09 IST" duration-ms="9818" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:53 IST" name="beforeMethod" finished-at="2023-04-13T16:44:53 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:09 IST" name="beforeMethod" finished-at="2023-04-16T15:19:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:53 IST" name="beforemethod" finished-at="2023-04-13T16:44:53 IST" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:09 IST" name="beforemethod" finished-at="2023-04-16T15:19:09 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Title()[pri:-1, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:53 IST" name="verify_Title" finished-at="2023-04-13T16:44:54 IST" duration-ms="1219" status="PASS">
+        <test-method signature="verify_Title()[pri:-1, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:09 IST" name="verify_Title" finished-at="2023-04-16T15:19:10 IST" duration-ms="1320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Title -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:54 IST" name="aftermethod" finished-at="2023-04-13T16:44:55 IST" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:10 IST" name="aftermethod" finished-at="2023-04-16T15:19:11 IST" duration-ms="467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,21 +41,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:55 IST" name="beforeMethod" finished-at="2023-04-13T16:44:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:11 IST" name="beforeMethod" finished-at="2023-04-16T15:19:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:55 IST" name="beforemethod" finished-at="2023-04-13T16:44:55 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:11 IST" name="beforemethod" finished-at="2023-04-16T15:19:11 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Logo()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:55 IST" name="verify_Logo" finished-at="2023-04-13T16:44:55 IST" duration-ms="300" status="FAIL">
+        <test-method signature="verify_Logo()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:11 IST" name="verify_Logo" finished-at="2023-04-16T15:19:11 IST" duration-ms="227" status="FAIL">
           <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[src/test/resources/screenshots/Thu Apr 13 16 44 55 IST 2023Logo Visible.png (No such file or directory)]]>
+              <![CDATA[src/test/resources/screenshots/Sun Apr 16 15 19 11 IST 2023Logo Visible.png (No such file or directory)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: src/test/resources/screenshots/Thu Apr 13 16 44 55 IST 2023Logo Visible.png (No such file or directory)
+              <![CDATA[java.io.FileNotFoundException: src/test/resources/screenshots/Sun Apr 16 15 19 11 IST 2023Logo Visible.png (No such file or directory)
 at java.base/java.io.FileOutputStream.open0(Native Method)
 at java.base/java.io.FileOutputStream.open(FileOutputStream.java:295)
 at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:236)
@@ -97,7 +97,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Logo -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:55 IST" name="aftermethod" finished-at="2023-04-13T16:44:55 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:11 IST" name="aftermethod" finished-at="2023-04-16T15:19:11 IST" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,21 +108,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:55 IST" name="beforeMethod" finished-at="2023-04-13T16:44:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:55 IST" name="beforemethod" finished-at="2023-04-13T16:44:55 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:11 IST" name="beforemethod" finished-at="2023-04-16T15:19:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Login_Fails_Error_Message()[pri:1, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:55 IST" name="verify_Login_Fails_Error_Message" finished-at="2023-04-13T16:44:57 IST" duration-ms="2274" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:11 IST" name="beforeMethod" finished-at="2023-04-16T15:19:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verify_Login_Fails_Error_Message()[pri:1, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:11 IST" name="verify_Login_Fails_Error_Message" finished-at="2023-04-16T15:19:13 IST" duration-ms="2045" status="FAIL">
           <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[src/test/resources/screenshots/Thu Apr 13 16 44 57 IST 2023Invalid Login.png (No such file or directory)]]>
+              <![CDATA[src/test/resources/screenshots/Sun Apr 16 15 19 13 IST 2023Invalid Login.png (No such file or directory)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: src/test/resources/screenshots/Thu Apr 13 16 44 57 IST 2023Invalid Login.png (No such file or directory)
+              <![CDATA[java.io.FileNotFoundException: src/test/resources/screenshots/Sun Apr 16 15 19 13 IST 2023Invalid Login.png (No such file or directory)
 at java.base/java.io.FileOutputStream.open0(Native Method)
 at java.base/java.io.FileOutputStream.open(FileOutputStream.java:295)
 at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:236)
@@ -164,7 +164,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_Fails_Error_Message -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:57 IST" name="aftermethod" finished-at="2023-04-13T16:44:58 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:13 IST" name="aftermethod" finished-at="2023-04-16T15:19:13 IST" duration-ms="162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,19 +175,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:58 IST" name="beforeMethod" finished-at="2023-04-13T16:44:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:58 IST" name="beforemethod" finished-at="2023-04-13T16:44:58 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:13 IST" name="beforemethod" finished-at="2023-04-16T15:19:13 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Empty_Credentials()[pri:2, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:58 IST" name="verify_Empty_Credentials" finished-at="2023-04-13T16:44:58 IST" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:13 IST" name="beforeMethod" finished-at="2023-04-16T15:19:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verify_Empty_Credentials()[pri:2, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:13 IST" name="verify_Empty_Credentials" finished-at="2023-04-16T15:19:14 IST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Empty_Credentials -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:58 IST" name="aftermethod" finished-at="2023-04-13T16:44:58 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:14 IST" name="aftermethod" finished-at="2023-04-16T15:19:14 IST" duration-ms="78" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,19 +198,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:58 IST" name="beforemethod" finished-at="2023-04-13T16:44:58 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:58 IST" name="beforeMethod" finished-at="2023-04-13T16:44:58 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:14 IST" name="beforeMethod" finished-at="2023-04-16T15:19:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verify_Invalid_Credentials()[pri:2, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:44:58 IST" name="verify_Invalid_Credentials" finished-at="2023-04-13T16:45:00 IST" duration-ms="1959" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:14 IST" name="beforemethod" finished-at="2023-04-16T15:19:14 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verify_Invalid_Credentials()[pri:2, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:14 IST" name="verify_Invalid_Credentials" finished-at="2023-04-16T15:19:15 IST" duration-ms="1247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Invalid_Credentials -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:00 IST" name="aftermethod" finished-at="2023-04-13T16:45:00 IST" duration-ms="64" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:15 IST" name="aftermethod" finished-at="2023-04-16T15:19:15 IST" duration-ms="46" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,19 +221,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:00 IST" name="beforeMethod" finished-at="2023-04-13T16:45:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:15 IST" name="beforeMethod" finished-at="2023-04-16T15:19:15 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:00 IST" name="beforemethod" finished-at="2023-04-13T16:45:00 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:15 IST" name="beforemethod" finished-at="2023-04-16T15:19:15 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Valid_Credentials()[pri:3, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:00 IST" name="verify_Valid_Credentials" finished-at="2023-04-13T16:45:03 IST" duration-ms="2394" status="PASS">
+        <test-method signature="verify_Valid_Credentials()[pri:3, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:15 IST" name="verify_Valid_Credentials" finished-at="2023-04-16T15:19:17 IST" duration-ms="2178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Valid_Credentials -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:03 IST" name="aftermethod" finished-at="2023-04-13T16:45:03 IST" duration-ms="72" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:17 IST" name="aftermethod" finished-at="2023-04-16T15:19:17 IST" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -244,19 +244,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:03 IST" name="beforeMethod" finished-at="2023-04-13T16:45:03 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:03 IST" name="beforemethod" finished-at="2023-04-13T16:45:03 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:17 IST" name="beforemethod" finished-at="2023-04-16T15:19:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Search_With_All_Tabs()[pri:4, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:03 IST" name="verify_Search_With_All_Tabs" finished-at="2023-04-13T16:45:16 IST" depends-on-methods="testClasses.TestCases.verify_Valid_Credentials" duration-ms="13566" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:17 IST" name="beforeMethod" finished-at="2023-04-16T15:19:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verify_Search_With_All_Tabs()[pri:4, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:17 IST" name="verify_Search_With_All_Tabs" finished-at="2023-04-16T15:19:29 IST" depends-on-methods="testClasses.TestCases.verify_Valid_Credentials" duration-ms="12060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Search_With_All_Tabs -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:16 IST" name="aftermethod" finished-at="2023-04-13T16:45:16 IST" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:29 IST" name="aftermethod" finished-at="2023-04-16T15:19:29 IST" duration-ms="46" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,19 +267,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:16 IST" name="beforeMethod" finished-at="2023-04-13T16:45:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:29 IST" name="beforeMethod" finished-at="2023-04-16T15:19:29 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:16 IST" name="beforemethod" finished-at="2023-04-13T16:45:16 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:29 IST" name="beforemethod" finished-at="2023-04-16T15:19:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Tabs_Colspan()[pri:4, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:16 IST" name="verify_Tabs_Colspan" finished-at="2023-04-13T16:45:17 IST" duration-ms="240" status="PASS">
+        <test-method signature="verify_Tabs_Colspan()[pri:4, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:29 IST" name="verify_Tabs_Colspan" finished-at="2023-04-16T15:19:30 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Tabs_Colspan -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:17 IST" name="aftermethod" finished-at="2023-04-13T16:45:17 IST" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:30 IST" name="aftermethod" finished-at="2023-04-16T15:19:30 IST" duration-ms="54" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -290,15 +290,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:17 IST" name="beforemethod" finished-at="2023-04-13T16:45:17 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:17 IST" name="beforeMethod" finished-at="2023-04-13T16:45:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:30 IST" name="beforeMethod" finished-at="2023-04-16T15:19:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verify_All_links_DashBoard()[pri:5, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:17 IST" name="verify_All_links_DashBoard" finished-at="2023-04-13T16:45:18 IST" depends-on-methods="testClasses.TestCases.verify_Valid_Credentials" duration-ms="1146" status="FAIL">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:30 IST" name="beforemethod" finished-at="2023-04-16T15:19:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="verify_All_links_DashBoard()[pri:5, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:30 IST" name="verify_All_links_DashBoard" finished-at="2023-04-16T15:19:31 IST" depends-on-methods="testClasses.TestCases.verify_Valid_Credentials" duration-ms="900" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://opensource-demo.orangehrmlive.com/web/index.php/attendance/punchOut] but found [https://opensource-demo.orangehrmlive.com/web/index.php/attendance/punchIn]]]>
@@ -344,7 +344,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_All_links_DashBoard -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:18 IST" name="aftermethod" finished-at="2023-04-13T16:45:18 IST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:31 IST" name="aftermethod" finished-at="2023-04-16T15:19:31 IST" duration-ms="182" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -355,19 +355,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:18 IST" name="beforeMethod" finished-at="2023-04-13T16:45:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:31 IST" name="beforeMethod" finished-at="2023-04-16T15:19:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:18 IST" name="beforemethod" finished-at="2023-04-13T16:45:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:31 IST" name="beforemethod" finished-at="2023-04-16T15:19:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Dash_Profile_About_PopupURL()[pri:6, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:18 IST" name="verify_Dash_Profile_About_PopupURL" finished-at="2023-04-13T16:45:20 IST" depends-on-methods="testClasses.TestCases.verify_Valid_Credentials" duration-ms="1703" status="PASS">
+        <test-method signature="verify_Dash_Profile_About_PopupURL()[pri:6, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:31 IST" name="verify_Dash_Profile_About_PopupURL" finished-at="2023-04-16T15:19:32 IST" depends-on-methods="testClasses.TestCases.verify_Valid_Credentials" duration-ms="1445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Dash_Profile_About_PopupURL -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:20 IST" name="aftermethod" finished-at="2023-04-13T16:45:20 IST" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:32 IST" name="aftermethod" finished-at="2023-04-16T15:19:32 IST" duration-ms="48" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -378,19 +378,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:20 IST" name="beforeMethod" finished-at="2023-04-13T16:45:20 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:32 IST" name="beforeMethod" finished-at="2023-04-16T15:19:32 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:20 IST" name="beforemethod" finished-at="2023-04-13T16:45:20 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:32 IST" name="beforemethod" finished-at="2023-04-16T15:19:32 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Dash_Profile_SupportPageURL()[pri:7, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:20 IST" name="verify_Dash_Profile_SupportPageURL" finished-at="2023-04-13T16:45:21 IST" duration-ms="1523" status="PASS">
+        <test-method signature="verify_Dash_Profile_SupportPageURL()[pri:7, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:32 IST" name="verify_Dash_Profile_SupportPageURL" finished-at="2023-04-16T15:19:33 IST" duration-ms="1146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Dash_Profile_SupportPageURL -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:21 IST" name="aftermethod" finished-at="2023-04-13T16:45:21 IST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:33 IST" name="aftermethod" finished-at="2023-04-16T15:19:33 IST" duration-ms="67" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -401,19 +401,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:21 IST" name="beforeMethod" finished-at="2023-04-13T16:45:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:21 IST" name="beforemethod" finished-at="2023-04-13T16:45:21 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:33 IST" name="beforemethod" finished-at="2023-04-16T15:19:33 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_Dash_Profile_ChangePasswordURL()[pri:8, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:21 IST" name="verify_Dash_Profile_ChangePasswordURL" finished-at="2023-04-13T16:45:22 IST" duration-ms="882" status="PASS">
+        <test-method signature="verify_Dash_Profile_ChangePasswordURL()[pri:8, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:33 IST" name="verify_Dash_Profile_ChangePasswordURL" finished-at="2023-04-16T15:19:35 IST" duration-ms="1164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Dash_Profile_ChangePasswordURL -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:22 IST" name="aftermethod" finished-at="2023-04-13T16:45:22 IST" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:33 IST" name="beforeMethod" finished-at="2023-04-16T15:19:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:35 IST" name="aftermethod" finished-at="2023-04-16T15:19:35 IST" duration-ms="72" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -424,19 +424,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:22 IST" name="beforeMethod" finished-at="2023-04-13T16:45:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:35 IST" name="beforeMethod" finished-at="2023-04-16T15:19:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:22 IST" name="beforemethod" finished-at="2023-04-13T16:45:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:35 IST" name="beforemethod" finished-at="2023-04-16T15:19:35 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verify_DashBoard_Logout_Functionality()[pri:9, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:22 IST" name="verify_DashBoard_Logout_Functionality" finished-at="2023-04-13T16:45:24 IST" duration-ms="1525" status="PASS">
+        <test-method signature="verify_DashBoard_Logout_Functionality()[pri:9, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:35 IST" name="verify_DashBoard_Logout_Functionality" finished-at="2023-04-16T15:19:36 IST" duration-ms="1403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_DashBoard_Logout_Functionality -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:24 IST" name="aftermethod" finished-at="2023-04-13T16:45:24 IST" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:36 IST" name="aftermethod" finished-at="2023-04-16T15:19:36 IST" duration-ms="44" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -447,7 +447,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-13T16:45:24 IST" name="afterclass" finished-at="2023-04-13T16:45:24 IST" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testClasses.TestCases@4a22f9e2]" started-at="2023-04-16T15:19:36 IST" name="afterclass" finished-at="2023-04-16T15:19:36 IST" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
